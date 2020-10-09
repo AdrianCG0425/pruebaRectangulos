@@ -54,7 +54,23 @@ int main()
         }
     }
     else if (rec1[0]<rec2[0]) {
+        if(rec1[1]==rec2[1]){    // x1=x2.... y1=y2
 
+        }
+        else if(rec1[1]<rec2[1]){    // x1=x2....  y1 menor que y2
+
+        }
+        else{                         // x1=x2....  y2
+            if(rec1[1]==rec2[1]){    // x1=x2.... y1=y2
+
+            }
+            else if(rec1[1]<rec2[1]){    // x1=x2....  y1 menor que y2
+
+            }
+            else{                         // x1=x2....  y2
+
+            }
+        }
     }
     else{
 
