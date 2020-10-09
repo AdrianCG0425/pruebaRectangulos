@@ -24,6 +24,7 @@ int main()
     rec1[1]=y;
     rec1[2]=a;
     rec1[3]=h;
+    t=0;
     do{
         if(t)cout<<"ingresaste una longitud incorrecta, vuelve a intentarlo"<<endl<<endl;
         cout << "ingrese las coordenadas del origen del segundo en x" << endl;
@@ -32,6 +33,7 @@ int main()
         cin>>y;
         cout << "ingrese la medida del ancho del rectangulo" << endl;
         cin>>a;
+
         cout << "ingrese la medida del alto del rectangulo" << endl;
         cin>>h;
         if(a<=0||h<=0)t=1;
@@ -40,6 +42,22 @@ int main()
     rec2[1]=y;
     rec2[2]=a;
     rec2[3]=h;
+    if(rec2[0]==rec1[0]){        // si x1 y x2 son iguales
+        if(rec1[1]==rec2[1]){    // x1=x2.... y1=y2
 
+        }
+        else if(rec1[1]<rec2[1]){    // x1=x2....  y1 menor que y2
+
+        }
+        else{                         // x1=x2....  y2
+
+        }
+    }
+    else if (rec1[0]<rec2[0]) {
+
+    }
+    else{
+
+    }
     return 0;
 }
